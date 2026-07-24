@@ -1,0 +1,13 @@
+ModelID,Algorithm,PreviousAccuracy,Accuracy,Status,Improvement,ImprovementStatus,Rank
+M108,Neural Network,92.0,96.1,Production Ready,4.1,Improved,1
+M110,Neural Network,93.1,95.4,Production Ready,2.3,Improved,2
+M106,Random Forest,91.0,94.5,Production Ready,3.5,Improved,3
+M112,Gradient Boosting,91.8,94.1,Production Ready,2.3,Improved,4
+M103,Random Forest,90.2,93.8,Production Ready,3.6,Improved,5
+M111,Gradient Boosting,89.4,92.7,Production Ready,3.3,Improved,6
+M104,Support Vector Machine,88.5,91.4,Production Ready,2.9,Improved,7
+M109,Logistic Regression,86.0,90.8,Production Ready,4.8,Improved,8
+M102,Decision Tree,87.0,89.5,Needs Improvement,2.5,Improved,9
+M107,Decision Tree,85.5,88.3,Needs Improvement,2.8,Improved,10
+M101,Logistic Regression,84.5,87.2,Needs Improvement,2.7,Improved,11
+M105,K-Nearest Neighbors,82.5,85.6,Needs Improvement,3.1,Improved,12

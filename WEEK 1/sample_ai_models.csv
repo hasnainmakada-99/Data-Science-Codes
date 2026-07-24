@@ -1,0 +1,16 @@
+ModelID,Algorithm,PreviousAccuracy,Accuracy
+M101,Logistic Regression,84.5,87.2
+M102,Decision Tree,87.0,89.5
+M103,Random Forest,90.2,93.8
+M104,Support Vector Machine,88.5,91.4
+M105,K-Nearest Neighbors,82.5,85.6
+M106,Random Forest,91.0,94.5
+M107,Decision Tree,85.5,88.3
+M108,Neural Network,92.0,96.1
+M109,Logistic Regression,86.0,90.8
+M110,Neural Network,93.1,95.4
+M111,Gradient Boosting,89.4,92.7
+M112,Gradient Boosting,91.8,94.1
+M113,Support Vector Machine,87.6,90.2
+M114,K-Nearest Neighbors,83.0,86.4
+M115,Random Forest,90.5,93.2
