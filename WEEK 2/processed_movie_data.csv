@@ -1,0 +1,14 @@
+MovieID,MovieTitle,Rating,Genre,ViewCount,Likes,NormalizedRating,EngagementRate,PopularityScore,PopularityRank
+MV107,Future Code,9,Science Fiction,210000,19800,1.0,9.43,1.0,1
+MV115,The Great Escape,9,Action,205000,18800,1.0,9.17,0.989,2
+MV105,Digital Dreams,9,Science Fiction,175000,16000,1.0,9.14,0.988,3
+MV111,Ocean Mystery,9,Mystery,143000,12100,1.0,8.46,0.959,4
+MV112,Final Mission,8,Action,190000,17400,0.5,9.16,0.689,5
+MV101,The Last Horizon,8,Science Fiction,125000,11200,0.5,8.96,0.68,6
+MV113,Parallel Lives,8,Drama,118000,9600,0.5,8.14,0.645,7
+MV103,Hidden Truth,8,Thriller,110000,8900,0.5,8.09,0.643,8
+MV109,Midnight Journey,8,Adventure,132000,10400,0.5,7.88,0.634,9
+MV110,Laugh Again,8,Comedy,105000,8100,0.5,7.71,0.627,10
+MV102,City Lights,8,Comedy,98000,7500,0.5,7.65,0.624,11
+MV106,Silent River,8,Drama,87000,6100,0.5,7.01,0.597,12
+MV114,Wild Trails,7,Adventure,99000,7200,0.0,7.27,0.308,13

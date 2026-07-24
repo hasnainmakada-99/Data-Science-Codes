@@ -1,0 +1,4 @@
+model_name,provider,capability_level,input_price_per_million,output_price_per_million,relative_energy_factor,pricing_mode,pricing_as_of,pricing_source_url,model_source_url,energy_factor_note
+gpt-5.6-luna,OpenAI,1,1.00,6.00,1.0,Standard short context,2026-07-19,https://developers.openai.com/api/docs/pricing,https://developers.openai.com/api/docs/models,Research proxy; not an official OpenAI energy measurement
+gpt-5.6-terra,OpenAI,3,2.50,15.00,2.5,Standard short context,2026-07-19,https://developers.openai.com/api/docs/pricing,https://developers.openai.com/api/docs/models,Research proxy; not an official OpenAI energy measurement
+gpt-5.6-sol,OpenAI,5,5.00,30.00,6.0,Standard short context,2026-07-19,https://developers.openai.com/api/docs/pricing,https://developers.openai.com/api/docs/models,Research proxy; not an official OpenAI energy measurement

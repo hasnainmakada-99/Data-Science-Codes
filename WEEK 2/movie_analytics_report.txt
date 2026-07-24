@@ -1,0 +1,29 @@
+MOVIE STREAMING ANALYTICS REPORT
+==================================================
+
+Total cleaned movie records: 13
+Average rating used to fill missing values: 8.28
+Average final rating: 8.23
+Number of genres: 7
+
+TOP-RATED AND MOST POPULAR MOVIE
+Movie ID: MV107
+Movie Title: Future Code
+Genre: Science Fiction
+Rating: 9
+Popularity Score: 1.000
+
+MOST VIEWED MOVIE
+Movie Title: Future Code
+Views: 210000
+
+BEST-PERFORMING GENRE
+Genre: Mystery
+Average Rating: 9.00
+Total Views: 143000
+
+CONCLUSION
+The movie dataset was cleaned and preprocessed successfully.
+Missing Rating values were filled using the average rating.
+Rows with missing MovieID or Genre were removed.
+Ratings were converted to integers and normalized.

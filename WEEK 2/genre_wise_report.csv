@@ -1,0 +1,8 @@
+Genre,MovieCount,AverageRating,HighestRating,TotalViews,AverageEngagement
+Mystery,1,9.0,9,143000,8.46
+Science Fiction,3,8.67,9,510000,9.18
+Action,2,8.5,9,395000,9.16
+Drama,2,8.0,8,205000,7.58
+Comedy,2,8.0,8,203000,7.68
+Thriller,1,8.0,8,110000,8.09
+Adventure,2,7.5,8,231000,7.57
