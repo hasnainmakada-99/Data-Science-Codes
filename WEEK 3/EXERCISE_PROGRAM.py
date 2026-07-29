@@ -24,7 +24,7 @@ capacity_data = {
 
 warehouses = np.array(list(shipment_data.keys()))
 weeks = np.array(["Week 1", "Week 2", "Week 3", "Week 4",
-                  "Week 5", "Week 6", "Week 7"])
+                "Week 5", "Week 6", "Week 7"])
 shipments = np.array(list(shipment_data.values()))
 transport_cost = np.array(list(transport_cost_data.values()))
 capacity = np.array(list(capacity_data.values()))
@@ -79,7 +79,7 @@ for i in range(len(warehouses)):
     print("  Transportation expense:", warehouse_costs[i])
     print("  Average cost per shipment:", round(average_unit_cost[i], 2))
     print("  Maximum capacity utilization:",
-          round(maximum_utilization[i], 2), "%")
+        round(maximum_utilization[i], 2), "%")
 
 print("\nWEEKLY INVENTORY MOVEMENT")
 for i in range(len(weeks)):
@@ -88,14 +88,14 @@ for i in range(len(weeks)):
 print("\nLOGISTICS BOTTLENECK POINTS")
 for warehouse_i, week_i in zip(*bottleneck_points):
     print(warehouses[warehouse_i], weeks[week_i],
-          "Utilization:", round(utilization[warehouse_i, week_i], 2), "%")
+        "Utilization:", round(utilization[warehouse_i, week_i], 2), "%")
 
 print("\nSUPPLY CHAIN PLANNING SUMMARY")
 print("Highest-performing warehouse:",
-      warehouses[best_warehouse_index])
+    warehouses[best_warehouse_index])
 print("Peak shipment week:", weeks[peak_week_index])
 print("Most cost-efficient warehouse:",
-      warehouses[efficient_warehouse_index])
+    warehouses[efficient_warehouse_index])
 print("Highest bottleneck risk:", warehouses[bottleneck_index])
 print("Total shipments:", np.sum(shipments))
 print("Total transportation expense:", np.sum(transportation_expense))
