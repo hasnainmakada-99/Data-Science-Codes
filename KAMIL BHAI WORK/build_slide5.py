@@ -35,6 +35,39 @@ def build_master(path):
     wb.save(path)
 
 # ------------------------------------------------------------------ xml utils
+
+# ---- schema-correct element placement (PowerPoint is strict; LibreOffice is not) ----
+CS_ORDER = ['c:date1904','c:lang','c:roundedCorners','c:style','c:clrMapOvr','c:pivotSource',
+            'c:protection','c:chart','c:spPr','c:txPr','c:externalData','c:printSettings',
+            'c:userShapes','c:extLst']
+SCALING_ORDER = ['c:logBase','c:orientation','c:max','c:min','c:extLst']
+PA_TAIL = ['c:dTable','c:spPr','c:extLst']
+
+def place(parent, tag, order):
+    """Get-or-create `tag` under `parent`, positioned per the CT sequence `order`."""
+    ex = parent.find(qn(tag))
+    if ex is not None:
+        return ex
+    el = etree.Element(qn(tag))
+    idx = order.index(tag)
+    for ch in parent:
+        name = etree.QName(ch)
+        key = 'c:' + name.localname
+        if key in order and order.index(key) > idx:
+            ch.addprevious(el)
+            return el
+    parent.append(el)
+    return el
+
+def plotarea_spPr(pa):
+    ex = pa.find(qn('c:spPr'))
+    if ex is not None: return ex
+    el = etree.Element(qn('c:spPr'))
+    ext = pa.find(qn('c:extLst'))
+    if ext is not None: ext.addprevious(el)
+    else: pa.append(el)
+    return el
+
 def sub(el, tag, **a):
     e = etree.SubElement(el, qn(tag))
     for k,v in a.items(): e.set(k,str(v))
@@ -57,9 +90,8 @@ def strip_chrome(chart, del_cat=True, del_val=True):
 
 def transparent(chart):
     cx = chart._chartSpace
-    for host in (cx, cx.find('.//'+qn('c:plotArea'))):
-        sp = host.find(qn('c:spPr'))
-        if sp is None: sp = etree.SubElement(host, qn('c:spPr'))
+    for sp in (place(cx, 'c:spPr', CS_ORDER),
+               plotarea_spPr(cx.find('.//'+qn('c:plotArea')))):
         for c in list(sp): sp.remove(c)
         sub(sp,'a:noFill'); sub(sub(sp,'a:ln'),'a:noFill')
 
@@ -78,7 +110,7 @@ def lock_text(chart, pt=18):
     cx = chart._chartSpace
     t = cx.find(qn('c:txPr'))
     if t is not None: cx.remove(t)
-    t = etree.SubElement(cx, qn('c:txPr'))
+    t = place(cx, 'c:txPr', CS_ORDER)
     sub(t,'a:bodyPr'); sub(t,'a:lstStyle')
     p = sub(t,'a:p'); sub(sub(p,'a:pPr'),'a:defRPr', sz=int(pt*100), b=1)
     sub(p,'a:endParaRPr', lang='en-US')
@@ -187,7 +219,7 @@ def build(src,dst,xlsx):
     ca.tick_labels.font.name = FONT; ca.tick_labels.font.color.rgb = NAVY
     ca.format.line.color.rgb = RULE
     sc = ca._element.find(qn('c:scaling'))
-    o = sc.find(qn('c:orientation')) or etree.SubElement(sc, qn('c:orientation'))
+    o = place(sc, 'c:orientation', SCALING_ORDER)
     o.set('val','maxMin')
     va = ch.value_axis; va.minimum_scale = 0; va.maximum_scale = 120
     s0 = ch.series[0]
@@ -296,4 +328,4 @@ def build(src,dst,xlsx):
     prs.save(dst); print("saved", dst)
 
 if __name__ == "__main__":
-    build("original.pptx","MRM_Slide5_V5.pptx","MRM_Master_Data.xlsx")
+    build("original.pptx","MRM_Slide5_V6.pptx","MRM_Master_Data.xlsx")
