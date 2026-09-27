@@ -1,0 +1,67 @@
+chart                  slide  workbook                  sheet                  refs  result
+--------------------------------------------------------------------------------------------------------
+chart10.xml                5  Microsoft_Excel_Sheet3.xlsxSafety                    3  FAIL — Safety!$B$1: cell 1 workbook='Value' chart='Near Misses'
+chart11.xml                5  Microsoft_Excel_Sheet4.xlsxSafety                    3  FAIL — Safety!$B$1: cell 1 workbook='Value' chart='Inductions'
+chart12.xml                5  Microsoft_Excel_Sheet5.xlsxSafety                    3  FAIL — Safety!$B$1: cell 1 workbook='Value' chart='Open NCR'
+chart13.xml                6  Microsoft_Excel_Sheet6.xlsxDesign                    3  FAIL — Design!$B$1: cell 1 workbook='Value' chart='DD Approved'
+chart14.xml                6  Microsoft_Excel_Sheet7.xlsxDesign                    3  FAIL — Design!$B$1: cell 1 workbook='Value' chart='GFC Approved'
+chart15.xml                8  Microsoft_Excel_Sheet8.xlsxBIM                      12  FAIL — BIM!$E$2:$E$7: cell 4 workbook=0.0 missing from chart cache
+chart16.xml                9  Microsoft_Excel_Sheet9.xlsxClash                     3  OK
+chart17.xml                9  Microsoft_Excel_Sheet10.xlsxClash                     3  FAIL — Clash!$B$1: cell 1 workbook='Total Clashes' chart='Count'
+chart18.xml               12  Microsoft_Excel_Sheet11.xlsxConstr                    3  FAIL — Constr!$B$1: cell 1 workbook='Done' chart='4-H Hotel'
+chart19.xml               12  Microsoft_Excel_Sheet12.xlsxConstr                    3  FAIL — Constr!$B$1: cell 1 workbook='Done' chart='3-H Hotel'
+chart20.xml               12  Microsoft_Excel_Sheet13.xlsxConstr                    3  FAIL — Constr!$B$1: cell 1 workbook='Done' chart='Convention Centre'
+chart21.xml               13  Microsoft_Excel_Sheet14.xlsxManpower                  3  OK
+chart22.xml               17  Microsoft_Excel_Sheet15.xlsxSeptPlan                  3  OK
+chart23.xml               20  Microsoft_Excel_Sheet16.xlsxEHS                       6  FAIL — EHS!$A$2:$A$5: cell 1 workbook='Safe Manhours' chart='Inductions'
+chart24.xml               27  Microsoft_Excel_Sheet17.xlsxQualityInd                3  OK
+chart25.xml               27  Microsoft_Excel_Sheet18.xlsxQualityInd                3  FAIL — QualityInd!$A$2:$A$7: cell 1 workbook='Training Imparted' chart='Obs. External'
+chart26.xml               27  Microsoft_Excel_Sheet19.xlsxQuality                   3  FAIL — Quality!$B$1: cell 1 workbook='FTRI' chart='First Time Right'
+chart27.xml               28  Microsoft_Excel_Sheet20.xlsxQualityInd                3  FAIL — QualityInd!$B$1: cell 1 workbook='Count' chart='Observations'
+chart28.xml               28  Microsoft_Excel_Sheet21.xlsxQualityInd                3  FAIL — QualityInd!$B$1: cell 1 workbook='Count' chart='NCR'
+chart8.xml                 5  Microsoft_Excel_Sheet1.xlsxCommercial                9  FAIL — Commercial!$B$1: cell 1 workbook='Baseline' chart='Actual'
+chart9.xml                 5  Microsoft_Excel_Sheet2.xlsxQuality                   3  FAIL — Quality!$B$1: cell 1 workbook='FTRI' chart='FTRI Score'
+--------------------------------------------------------------------------------------------------------
+charts checked: 21   c:f references resolved: 81   problems: 42
+  ! chart10.xml: Safety!$B$1: cell 1 workbook='Value' chart='Near Misses'
+  ! chart11.xml: Safety!$B$1: cell 1 workbook='Value' chart='Inductions'
+  ! chart11.xml: Safety!$A$2:$A$2: cell 1 workbook='Near Misses' chart='Inductions'
+  ! chart11.xml: Safety!$B$2:$B$2: cell 1 workbook=4.0 chart=1691.0
+  ! chart12.xml: Safety!$B$1: cell 1 workbook='Value' chart='Open NCR'
+  ! chart12.xml: Safety!$A$2:$A$2: cell 1 workbook='Near Misses' chart='Open NCR'
+  ! chart12.xml: Safety!$B$2:$B$2: cell 1 workbook=4.0 chart=1.0
+  ! chart13.xml: Design!$B$1: cell 1 workbook='Value' chart='DD Approved'
+  ! chart14.xml: Design!$B$1: cell 1 workbook='Value' chart='GFC Approved'
+  ! chart14.xml: Design!$A$2:$A$2: cell 1 workbook='DD Approved' chart='GFC Approved'
+  ! chart14.xml: Design!$B$2:$B$2: cell 1 workbook=1014.0 chart=178.0
+  ! chart15.xml: BIM!$E$2:$E$7: cell 4 workbook=0.0 missing from chart cache
+  ! chart17.xml: Clash!$B$1: cell 1 workbook='Total Clashes' chart='Count'
+  ! chart17.xml: Clash!$A$2:$A$7: cell 1 workbook='17 Aug' chart='MEPF vs AR'
+  ! chart17.xml: Clash!$B$2:$B$7: cell 1 workbook=15297.0 chart=5131.0
+  ! chart18.xml: Constr!$B$1: cell 1 workbook='Done' chart='4-H Hotel'
+  ! chart18.xml: Constr!$A$2:$A$2: cell 1 workbook='4-H' chart='4-H Hotel'
+  ! chart19.xml: Constr!$B$1: cell 1 workbook='Done' chart='3-H Hotel'
+  ! chart19.xml: Constr!$A$2:$A$2: cell 1 workbook='4-H' chart='3-H Hotel'
+  ! chart19.xml: Constr!$B$2:$B$2: cell 1 workbook=39.0 chart=15.0
+  ! chart20.xml: Constr!$B$1: cell 1 workbook='Done' chart='Convention Centre'
+  ! chart20.xml: Constr!$A$2:$A$2: cell 1 workbook='4-H' chart='Convention Centre'
+  ! chart20.xml: Constr!$B$2:$B$2: cell 1 workbook=39.0 chart=8.0
+  ! chart23.xml: EHS!$A$2:$A$5: cell 1 workbook='Safe Manhours' chart='Inductions'
+  ! chart23.xml: EHS!$B$2:$B$5: cell 1 workbook=127954.0 chart=585.0
+  ! chart23.xml: EHS!$A$2:$A$5: cell 1 workbook='Safe Manhours' chart='Inductions'
+  ! chart23.xml: EHS!$C$2:$C$5: cell 1 workbook=344498.0 chart=1691.0
+  ! chart25.xml: QualityInd!$A$2:$A$7: cell 1 workbook='Training Imparted' chart='Obs. External'
+  ! chart25.xml: QualityInd!$B$2:$B$7: cell 1 workbook=74.0 chart=32.0
+  ! chart26.xml: Quality!$B$1: cell 1 workbook='FTRI' chart='First Time Right'
+  ! chart27.xml: QualityInd!$B$1: cell 1 workbook='Count' chart='Observations'
+  ! chart27.xml: QualityInd!$A$2:$A$3: cell 1 workbook='Training Imparted' chart='Closed'
+  ! chart27.xml: QualityInd!$B$2:$B$3: cell 1 workbook=74.0 chart=24.0
+  ! chart28.xml: QualityInd!$B$1: cell 1 workbook='Count' chart='NCR'
+  ! chart28.xml: QualityInd!$A$2:$A$3: cell 1 workbook='Training Imparted' chart='Closed'
+  ! chart28.xml: QualityInd!$B$2:$B$3: cell 1 workbook=74.0 chart=103.0
+  ! chart8.xml: Commercial!$B$1: cell 1 workbook='Baseline' chart='Actual'
+  ! chart8.xml: Commercial!$B$2:$B$3: cell 1 workbook=40.0 chart=15.5
+  ! chart8.xml: Commercial!$C$2:$C$3: cell 1 workbook=31.06 chart=15.56
+  ! chart8.xml: Commercial!$D$1: cell 1 workbook='Actual' chart='Baseline'
+  ! chart8.xml: Commercial!$D$2:$D$3: cell 1 workbook=15.5 chart=8.94
+  ! chart9.xml: Quality!$B$1: cell 1 workbook='FTRI' chart='FTRI Score'
