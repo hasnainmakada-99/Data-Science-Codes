@@ -1,0 +1,855 @@
+{
+ "file": "CSD-LKO-RB.xer -> CSD-LKO-RB-Stage1.xer",
+ "added": [
+  {
+   "from": "RB1-T&C-1st10",
+   "to": "RB1-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "3S-T&C-4th20",
+   "to": "3S-T&C-5th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-3rd20",
+   "to": "4S-T&C-4th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 2.4
+  },
+  {
+   "from": "CC-T&C-1stM15",
+   "to": "CC-T&C-2ndF15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-F-SS20",
+   "to": "RB2-F-SS25",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-3rd10",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB2-T&C-6th20",
+   "to": "RB2-T&C-Terrace20",
+   "type": "SS",
+   "lag_days": 3.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 2.4
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "P-Misc-Accoustic/AV-15",
+   "type": "SS",
+   "lag_days": 1.6
+  },
+  {
+   "from": "RB2-T&C-2nd20",
+   "to": "RB2-T&C-3rd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-3rd10",
+   "to": "4S-T&C-4th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-2nd10",
+   "to": "RB1-T&C-3rd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-1st15",
+   "to": "RB2-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-F-SS35",
+   "to": "3S-F-SS40",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 1.6
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-25",
+   "to": "E-GFC-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "3S-F-SS20",
+   "to": "3S-F-SS25",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-GF20",
+   "to": "RB1-T&C-1st20",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB2-T&C-4th15",
+   "to": "RB2-T&C-5th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-5th10",
+   "to": "RB2-T&C-6th10",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "CC-F-SS10",
+   "to": "CC-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-4th15",
+   "to": "3S-T&C-5th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-1st15",
+   "to": "3S-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-1st15",
+   "to": "4S-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-SS-GF.200",
+   "to": "RB2-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 12.0
+  },
+  {
+   "from": "4S-T&C-4th20",
+   "to": "4S-T&C-5th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-5th10",
+   "to": "3S-T&C-6th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-1st10",
+   "to": "4S-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-1st10",
+   "to": "RB2-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-15",
+   "to": "E-DD-Misc-Accoustic/AV-20",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "RB1-F-SS10",
+   "to": "RB1-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-1st20",
+   "to": "4S-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-Terrace10",
+   "to": "3S-T&C-7th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "CC-T&C-2ndM10",
+   "to": "CC-T&C-3rdM10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-6th20",
+   "to": "3S-T&C-Terrace20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-5th15",
+   "to": "RB2-T&C-6th15",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "E-CD-60",
+   "to": "E-SD-ID15",
+   "type": "SS",
+   "lag_days": 16.0
+  },
+  {
+   "from": "4S-T&C-4th10",
+   "to": "4S-T&C-5th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-4th10",
+   "to": "RB2-T&C-5th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-4th20",
+   "to": "RB2-T&C-5th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-Terrace15",
+   "to": "3S-T&C-7th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-10",
+   "to": "E-DD-Misc-Accoustic/AV-15",
+   "type": "SS",
+   "lag_days": 12.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 2.4
+  },
+  {
+   "from": "4S-F-SS30",
+   "to": "4S-F-SS35",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-20",
+   "to": "MISC15",
+   "type": "SS",
+   "lag_days": 2.8
+  },
+  {
+   "from": "CC-F-SS15",
+   "to": "CC-F-SS20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-2nd15",
+   "to": "RB1-T&C-3rd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-35",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-15",
+   "to": "E-GFC-Misc-Accoustic/AV-20",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "CC-F-GF55",
+   "to": "CC-F-Terrace25",
+   "type": "SS",
+   "lag_days": 12.0
+  },
+  {
+   "from": "4S-F-SS20",
+   "to": "4S-F-SS25",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-1st10",
+   "to": "3S-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-GF10",
+   "to": "RB1-T&C-1st10",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-20",
+   "to": "E-DD-Misc-Accoustic/AV-25",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "CC-SS-GF245",
+   "to": "CC-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "3S-F-SS30",
+   "to": "3S-F-SS35",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-3rd15",
+   "to": "4S-T&C-4th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-F-SS10",
+   "to": "4S-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-25",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "RB1-T&C-3rd20",
+   "to": "RB1-T&C-4th20",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 12.0
+  },
+  {
+   "from": "RB1-T&C-1st20",
+   "to": "RB1-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "CC-T&C-1stM10",
+   "to": "CC-T&C-2ndF10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-As Built-Misc-25",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB1-T&C-1st15",
+   "to": "RB1-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "3S-F-SS10",
+   "to": "3S-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-4th15",
+   "to": "4S-T&C-5th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-6th15",
+   "to": "3S-T&C-Terrace15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "CC-T&C-2ndM15",
+   "to": "CC-T&C-3rdM15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-3rd15",
+   "to": "3S-T&C-4th15",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "3S-F-SS25",
+   "to": "3S-F-SS30",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-3rd20",
+   "to": "3S-T&C-4th20",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB1-T&C-3rd15",
+   "to": "RB1-T&C-4th15",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB1-SS-GF.480",
+   "to": "RB1-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "E-ShopD-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 4.0
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-25",
+   "to": "E-DD-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "RB2-T&C-5th20",
+   "to": "RB2-T&C-6th20",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "3S-T&C-3rd10",
+   "to": "3S-T&C-4th10",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB2-T&C-1st20",
+   "to": "RB2-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB2-F-SS10",
+   "to": "RB2-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-5th15",
+   "to": "3S-T&C-6th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "Mock Up-ID_H&CC-D-15",
+   "to": "Mock Up-ID_H&CC-10",
+   "type": "SS",
+   "lag_days": 4.0
+  },
+  {
+   "from": "3S-T&C-Terrace20",
+   "to": "3S-T&C-7th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-6th10",
+   "to": "3S-T&C-Terrace10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "CC-T&C-1stM20",
+   "to": "CC-T&C-2ndF20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-SS-GF370",
+   "to": "3S-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "Mock Up-ID_H&CC-40",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 12.0
+  },
+  {
+   "from": "3S-T&C-5th20",
+   "to": "3S-T&C-6th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-1st20",
+   "to": "3S-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "CC-T&C-2ndM20",
+   "to": "CC-T&C-3rdM20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-2nd10",
+   "to": "RB2-T&C-3rd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-20",
+   "to": "E-GFC-Misc-Accoustic/AV-25",
+   "type": "SS",
+   "lag_days": 0.8
+  },
+  {
+   "from": "RB2-T&C-2nd15",
+   "to": "RB2-T&C-3rd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-F-SS15",
+   "to": "4S-F-SS20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-5th10",
+   "to": "4S-T&C-6th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-F-SS25",
+   "to": "4S-F-SS30",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-GF15",
+   "to": "RB1-T&C-1st15",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "4S-SS-GF.330",
+   "to": "4S-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "RB1-T&C-2nd20",
+   "to": "RB1-T&C-3rd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-4th10",
+   "to": "3S-T&C-5th10",
+   "type": "SS",
+   "lag_days": 10.0
+  }
+ ],
+ "removed": [
+  {
+   "from": "RB1-SS-4th.525",
+   "to": "RB1-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "3S-SS-7th200",
+   "to": "3S-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-15",
+   "to": "E-DD-Misc-Accoustic/AV-20",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-SS10",
+   "to": "RB1-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-SS-6th.55",
+   "to": "RB2-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "E-CD-60",
+   "to": "E-SD-ID15",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-10",
+   "to": "E-DD-Misc-Accoustic/AV-15",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS30",
+   "to": "4S-F-SS35",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-20",
+   "to": "MISC15",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-SS15",
+   "to": "CC-F-SS20",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-15",
+   "to": "E-GFC-Misc-Accoustic/AV-20",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-GF55",
+   "to": "CC-F-Terrace25",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS20",
+   "to": "4S-F-SS25",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-20",
+   "to": "E-DD-Misc-Accoustic/AV-25",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS30",
+   "to": "3S-F-SS35",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS10",
+   "to": "4S-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-25",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-35",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-25",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-SS-6th.F.190",
+   "to": "4S-F-SS10",
+   "type": "FF"
+  },
+  {
+   "from": "3S-F-SS10",
+   "to": "3S-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS25",
+   "to": "3S-F-SS30",
+   "type": "FS"
+  },
+  {
+   "from": "E-ShopD-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-25",
+   "to": "E-DD-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "4S-SS-6th.F.320",
+   "to": "4S-F-SS10",
+   "type": "FF"
+  },
+  {
+   "from": "CC-SS-2ndF.105",
+   "to": "CC-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-SS10",
+   "to": "RB2-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-D-15",
+   "to": "Mock Up-ID_H&CC-10",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-40",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-20",
+   "to": "E-GFC-Misc-Accoustic/AV-25",
+   "type": "FS"
+  },
+  {
+   "from": "4S-SS-6th.F.415",
+   "to": "4S-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS15",
+   "to": "4S-F-SS20",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS25",
+   "to": "4S-F-SS30",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-SS20",
+   "to": "RB2-F-SS25",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "P-Misc-Accoustic/AV-15",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS35",
+   "to": "3S-F-SS40",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-25",
+   "to": "E-GFC-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS20",
+   "to": "3S-F-SS25",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-SS10",
+   "to": "CC-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "FS"
+  }
+ ]
+}
