@@ -1,0 +1,30 @@
+{
+ "base_file": "CSD-LKO-RB-Stage1_1.xer",
+ "new_file": "CSD-LKO-RB-Stage1_2N.xer",
+ "built": "2026-10-06",
+ "originals_preserved": 22718,
+ "originals_severed": 0,
+ "original_lags_modified": 0,
+ "added_relationships": 45861,
+ "added_type": "PR_FS only",
+ "added_pk_range": [
+  641338,
+  687198
+ ],
+ "cpm_gates": {
+  "negative_float": 0,
+  "loops": 0,
+  "finish_shift_vs_baseline": "none (engine view 2029-04-06)"
+ },
+ "lag_rule": "min(engine_gap-0.5d, cached_P6_gap-margin); guard: never demands a date later than the file's own cached P6 dates",
+ "float_outcome": {
+  "le44cd": 4270,
+  "le44_pct": 32.7,
+  "gt44": 8757,
+  "bands_44_60": 2337,
+  "bands_60_120": 3714,
+  "bands_120_250": 2664,
+  "gt250": 42,
+  "note": "remaining >44 are genuine vertical windows to physically-later successors; provable, not editable by links"
+ }
+}
