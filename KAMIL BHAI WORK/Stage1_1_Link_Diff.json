@@ -1,0 +1,4718 @@
+{
+ "file": "CSD-LKO-RB.xer -> CSD-LKO-RB-Stage1_1.xer",
+ "added_count": 454,
+ "removed_count": 397,
+ "added": [
+  {
+   "from": "RB1-SS-GF.480",
+   "to": "RB1-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "RB1-SS-1st.570",
+   "to": "RB1-SS-1st.610",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-2nd.570",
+   "to": "RB1-SS-2nd.590",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "3S-F-7th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B01.790",
+   "to": "RB1-SS-B01.805",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th355",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-3rd.570",
+   "to": "RB1-SS-3rd.590",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB2-T&C-1st15",
+   "to": "RB2-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-4th.345",
+   "to": "RB1-SS-4th.365",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-T&C-Terrace10",
+   "to": "3S-T&C-7th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th250",
+   "to": "RB1-WMI-4th265",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-GF.500",
+   "to": "RB1-SS-GF.510",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-4th.505",
+   "to": "RB1-SS-4th.545",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "E-GFC-ST-RB1-175",
+   "to": "RB1-SS-Roof10",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-GF.455",
+   "to": "RB1-SS-GF.510",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "SSF15",
+   "to": "3S-F-SS10",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB1-SS-4th.685",
+   "to": "RB1-SS-Roof40",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB2-F-5th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "Mock Up-ID_H&CC-D-15",
+   "to": "Mock Up-ID_H&CC-10",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "PC30",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 20.0
+  },
+  {
+   "from": "RB1-WMI-3rd395",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-3rd.380",
+   "to": "RB1-SS-3rd.395",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th280",
+   "to": "RB1-WMI-4th350",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-GF.585",
+   "to": "RB1-SS-GF.610",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "E-ShopD-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "4S-F-SS30",
+   "to": "4S-F-SS35",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-B03.195",
+   "to": "RB1-SS-B03.240",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-3rd.590",
+   "to": "RB1-SS-3rd.605",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-B03.330",
+   "to": "RB1-SS-B03.375",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "3S-F-4th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "CC-T&C-2ndM20",
+   "to": "CC-T&C-3rdM20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-T&C-3rd20",
+   "to": "4S-T&C-4th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-6th15",
+   "to": "3S-T&C-Terrace15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-B03.15",
+   "to": "RB1-SS-B03.35",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "Mock Up-ID_H&CC-60",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th245",
+   "to": "RB1-WMI-4th275",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-1st.530",
+   "to": "RB1-SS-1st.545",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "PC165",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB2-SS-Roof40",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-GF.370",
+   "to": "RB1-SS-GF.390",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-3rd.320",
+   "to": "RB1-SS-3rd.395",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th280",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th190",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-2nd395",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-B01.805",
+   "to": "RB1-SS-B01.840",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-4th.545",
+   "to": "RB1-SS-4th.560",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-3rd.545",
+   "to": "RB1-SS-3rd.570",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-WMI-4th230",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB1-SS-2nd.605",
+   "to": "RB1-SS-2nd.610",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "3S-T&C-Terrace15",
+   "to": "3S-T&C-7th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-F-2nd65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-T&C-3rd10",
+   "to": "4S-T&C-4th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "CC-F-(3rdM-Terrace)40",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-1st.570",
+   "to": "RB1-SS-1st.590",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-4th.610",
+   "to": "RB1-SS-4th.640",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-4th.430",
+   "to": "RB1-SS-4th.450",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B03.40",
+   "to": "RB1-SS-B03.90",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-WMI-4th330",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB1-WMI-4th395",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-WMI-4th385",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB2-T&C-2nd10",
+   "to": "RB2-T&C-3rd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th55",
+   "to": "RB1-WMI-4th265",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "E-GFC-MEP-RB1-180",
+   "to": "RB1-WMI-4th30",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-WMI-4th155",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-15",
+   "to": "E-GFC-Misc-Accoustic/AV-20",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-WMI-4th325",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "PC15",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 4.0
+  },
+  {
+   "from": "RB1-SS-B01.920",
+   "to": "RB1-SS-GF.300",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-Roof20",
+   "to": "RB1-SS-Roof25",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "CC-T&C-1stM10",
+   "to": "CC-T&C-2ndF10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-As Built-Misc-35",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-T&C-3rd15",
+   "to": "RB1-T&C-4th15",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB1-SS-B02.175",
+   "to": "RB1-SS-B02.250",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB2-F-Terrace70",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-WMI-4th60",
+   "to": "RB1-WMI-4th80",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "4S-F-GF60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-3rd.440",
+   "to": "RB1-SS-3rd.545",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th235",
+   "to": "RB1-WMI-4th350",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "P-Misc-Accoustic/AV-15",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-GF.455",
+   "to": "RB1-SS-GF.500",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-3rd.570",
+   "to": "RB1-SS-3rd.610",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-FN205",
+   "to": "RB1-SS-FN30",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-2nd.590",
+   "to": "RB1-SS-2nd.605",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-2nd.530",
+   "to": "RB1-SS-2nd.545",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-F-4th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th15",
+   "to": "RB1-WMI-4th30",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-B03.15",
+   "to": "RB1-SS-B03.45",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "PC60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 20.0
+  },
+  {
+   "from": "RB1-SS-B03.85",
+   "to": "RB1-SS-B03.240",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "Mock Up-ID_H&CC-45",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-T&C-1st20",
+   "to": "4S-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-GFC-MEP-RB1-180",
+   "to": "RB1-WMI-4th60",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB2-F-(2nd-5th)65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-SS20",
+   "to": "3S-F-SS25",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-FN80",
+   "to": "RB1-SS-FN145",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th10",
+   "to": "RB1-WMI-4th15",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-B01.840",
+   "to": "RB1-SS-B01.865",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-3rd.500",
+   "to": "RB1-SS-3rd.530",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th185",
+   "to": "RB1-WMI-4th215",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-1st.610",
+   "to": "RB1-SS-1st.615",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B01.750",
+   "to": "RB1-SS-B01.755",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB2-F-5th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB2-T&C-5th20",
+   "to": "RB2-T&C-6th20",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-2nd.395",
+   "to": "RB1-SS-2nd.440",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-1st.455",
+   "to": "RB1-SS-1st.490",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th75",
+   "to": "RB1-WMI-4th80",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "4S-F-3rd55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "CC-F-(3rdM-Terrace)60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-T&C-5th15",
+   "to": "3S-T&C-6th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-FN145",
+   "to": "RB1-SS-FN160",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-T&C-4th15",
+   "to": "3S-T&C-5th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-GF10",
+   "to": "RB1-T&C-1st10",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB1-SS-B02.520",
+   "to": "RB1-SS-B01.505",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th315",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-FN200",
+   "to": "RB1-SS-FN205",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 3.0
+  },
+  {
+   "from": "Mock Up-ID_H&CC-65",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-SS-GF370",
+   "to": "3S-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "3S-F-7th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B02.10",
+   "to": "RB1-SS-B02.40",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB1-SS-B03.180",
+   "to": "RB1-SS-B03.405",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-SS-FN180",
+   "to": "RB1-SS-B03.90",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-F-3rd55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-F-SS25",
+   "to": "4S-F-SS30",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-B02.30",
+   "to": "RB1-SS-B02.40",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-F-3rd65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-T&C-2nd10",
+   "to": "RB1-T&C-3rd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th290",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB1-WMI-4th215",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "RB1-SS-B02.75",
+   "to": "RB1-SS-B02.85",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-FN170",
+   "to": "RB1-SS-B03.90",
+   "type": "SS",
+   "lag_days": 15.7
+  },
+  {
+   "from": "RB1-SS-FN85",
+   "to": "RB1-SS-FN105",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-3rd.440",
+   "to": "RB1-SS-3rd.455",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-F-7th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-SS30",
+   "to": "3S-F-SS35",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-6th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-1st.500",
+   "to": "RB1-SS-1st.530",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB2-F-(GF-2nd)55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th285",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-FN15",
+   "to": "RB1-SS-FN20",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B01.900",
+   "to": "RB1-SS-B01.905",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-1st.590",
+   "to": "RB1-SS-1st.605",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB2-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-B01.665",
+   "to": "RB1-SS-B01.685",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-2nd.490",
+   "to": "RB1-SS-2nd.500",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B02.250",
+   "to": "RB1-SS-B02.265",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-T&C-2nd15",
+   "to": "RB1-T&C-3rd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-GF.555",
+   "to": "RB1-SS-GF.590",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-Roof25",
+   "to": "RB1-SS-Roof30",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-B01.865",
+   "to": "RB1-SS-B01.900",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-WMI-4th235",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th125",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "RB1-WMI-4th95",
+   "to": "RB1-WMI-4th150",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "RB1-SS-1st.440",
+   "to": "RB1-SS-1st.545",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "E-As Built-Misc-25",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-B01.685",
+   "to": "RB1-SS-B01.755",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-WMI-4th120",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB2-T&C-1st20",
+   "to": "RB2-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "CC-T&C-1stM15",
+   "to": "CC-T&C-2ndF15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-F-(GF-Terrace)60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-3rd.320",
+   "to": "RB1-SS-3rd.380",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-T&C-3rd20",
+   "to": "RB1-T&C-4th20",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-B02.210",
+   "to": "RB1-SS-B02.250",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-T&C-GF20",
+   "to": "RB1-T&C-1st20",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB1-SS-GF.440",
+   "to": "RB1-SS-GF.555",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-1st.395",
+   "to": "RB1-SS-1st.440",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "4S-F-SS10",
+   "to": "4S-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-4th.430",
+   "to": "RB1-SS-4th.560",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "PC150",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-3rd.455",
+   "to": "RB1-SS-3rd.500",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th165",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-F-(GF-2nd)65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th320",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "PC135",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "3S-T&C-Terrace20",
+   "to": "3S-T&C-7th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-B02.170",
+   "to": "RB1-SS-B02.210",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "CC-SS-GF245",
+   "to": "CC-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "CC-F-(1stM-3rdM)60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th260",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "E-As Built-Misc-30",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 20.0
+  },
+  {
+   "from": "RB1-SS-4th.610",
+   "to": "RB1-SS-4th.670",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-F-SS10",
+   "to": "RB1-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-F-5th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-F-5th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-T&C-1st15",
+   "to": "RB1-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB2-F-6th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-25",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB2-F-6th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-FN105",
+   "to": "RB1-SS-B03.90",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-SS-FN25",
+   "to": "RB1-SS-FN30",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-3rd.600",
+   "to": "RB1-SS-3rd.610",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-25",
+   "to": "E-GFC-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "E-As Built-Misc-50",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-GF.300",
+   "to": "RB1-SS-GF.390",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-4th.365",
+   "to": "RB1-SS-4th.430",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB2-F-(GF-2nd)65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-2nd.545",
+   "to": "RB1-SS-2nd.570",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "4S-T&C-4th15",
+   "to": "4S-T&C-5th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-F-6th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-20",
+   "to": "MISC15",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB1-WMI-4th195",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th375",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB1-WMI-1st395",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-FN25",
+   "to": "RB1-SS-FN40",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-GF.510",
+   "to": "RB1-SS-GF.545",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-FN185",
+   "to": "RB1-SS-FN200",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B03.420",
+   "to": "RB1-SS-B02.10",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB2-F-5th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-T&C-6th20",
+   "to": "3S-T&C-Terrace20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-2nd.500",
+   "to": "RB1-SS-2nd.530",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "4S-F-GF55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-20",
+   "to": "E-GFC-Misc-Accoustic/AV-25",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-WMI-4th210",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "RB1-SS-1st.380",
+   "to": "RB1-SS-1st.395",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-F-4th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-2nd60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th240",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-F-6th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-3rd.530",
+   "to": "RB1-SS-3rd.545",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-3rd400",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-B02.130",
+   "to": "RB1-SS-B02.170",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-FN80",
+   "to": "RB1-SS-FN115",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-10",
+   "to": "E-DD-Misc-Accoustic/AV-15",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB2-T&C-5th15",
+   "to": "RB2-T&C-6th15",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-35",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "3S-F-GF65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-GF.605",
+   "to": "RB1-SS-GF.610",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-F-(GF-2nd)60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-1st.320",
+   "to": "RB1-SS-1st.395",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-2nd.380",
+   "to": "RB1-SS-2nd.395",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-Roof40",
+   "to": "RB1-WMI-4th10",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-4th.280",
+   "to": "RB1-SS-4th.345",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-FN115",
+   "to": "RB1-SS-FN130",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-GF.615",
+   "to": "RB1-SS-1st.320",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-4th.640",
+   "to": "RB1-SS-4th.665",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-1st.320",
+   "to": "RB1-SS-1st.380",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "CC-F-GF20",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-4th.525",
+   "to": "RB1-SS-Roof40",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-B01.755",
+   "to": "RB1-SS-B01.790",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 3.0
+  },
+  {
+   "from": "3S-T&C-1st10",
+   "to": "3S-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-GF.600",
+   "to": "RB1-SS-GF.605",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "4S-SS-GF.330",
+   "to": "4S-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "RB1-SS-B01.505",
+   "to": "RB1-SS-B01.615",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "E-GFC-AR-RB1-180",
+   "to": "RB1-WMI-4th15",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "3S-T&C-4th20",
+   "to": "3S-T&C-5th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-FN160",
+   "to": "RB1-SS-FN190",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "CC-F-(1stM-3rdM)20",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-2nd.615",
+   "to": "RB1-SS-3rd.320",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-F-3rd60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th335",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-Roof10",
+   "to": "RB1-SS-Roof15",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB1-SS-B01.685",
+   "to": "RB1-SS-B01.750",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-B03.240",
+   "to": "RB1-SS-B03.285",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-2nd.600",
+   "to": "RB1-SS-2nd.610",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "CC-T&C-2ndM10",
+   "to": "CC-T&C-3rdM10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th295",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B02.10",
+   "to": "RB1-SS-B02.30",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB1-SS-1st.600",
+   "to": "RB1-SS-1st.610",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-FN10",
+   "to": "RB1-SS-FN35",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "3S-T&C-5th20",
+   "to": "3S-T&C-6th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th365",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB1-SS-1st.605",
+   "to": "RB1-SS-1st.610",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-WMI-4th310",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-WMI-4th275",
+   "to": "RB1-WMI-4th280",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-FN130",
+   "to": "RB1-SS-FN145",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-T&C-5th10",
+   "to": "4S-T&C-6th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-T&C-1st20",
+   "to": "RB1-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "E-As Built-F-10",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-T&C-1st10",
+   "to": "RB1-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "4S-F-5th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-T&C-GF15",
+   "to": "RB1-T&C-1st15",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "E-As Built-F-20",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-WMI-4th340",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "3S-F-4th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-FN25",
+   "to": "RB1-SS-FN35",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-3rd.455",
+   "to": "RB1-SS-3rd.490",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th370",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB2-T&C-2nd15",
+   "to": "RB2-T&C-3rd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-F-SS20",
+   "to": "RB2-F-SS25",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-4th.675",
+   "to": "RB1-SS-Roof10",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B03.405",
+   "to": "RB1-SS-B03.420",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-WMI-GF250",
+   "to": "MISC15",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "RB1-SS-2nd.570",
+   "to": "RB1-SS-2nd.610",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-B03.45",
+   "to": "RB1-SS-B03.85",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB1-SS-1st.455",
+   "to": "RB1-SS-1st.500",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB2-T&C-4th15",
+   "to": "RB2-T&C-5th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "CC-F-GF55",
+   "to": "CC-F-Terrace25",
+   "type": "SS",
+   "lag_days": 12.0
+  },
+  {
+   "from": "RB1-SS-FN15",
+   "to": "RB1-SS-FN25",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-4th.280",
+   "to": "RB1-SS-4th.365",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-4th.450",
+   "to": "RB1-SS-4th.505",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-FN180",
+   "to": "RB1-SS-B03.15",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "E-As Built-F-15",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB2-F-SS10",
+   "to": "RB2-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-2nd400",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-1st.545",
+   "to": "RB1-SS-1st.570",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-3rd.615",
+   "to": "RB1-SS-4th.280",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-F-5th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-5th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-T&C-4th10",
+   "to": "3S-T&C-5th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-FN170",
+   "to": "RB1-SS-B03.15",
+   "type": "SS",
+   "lag_days": 15.7
+  },
+  {
+   "from": "4S-F-2nd60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-GF.590",
+   "to": "RB1-SS-GF.600",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "4S-T&C-4th20",
+   "to": "4S-T&C-5th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-6th20",
+   "to": "RB2-T&C-Terrace20",
+   "type": "SS",
+   "lag_days": 3.0
+  },
+  {
+   "from": "4S-T&C-1st15",
+   "to": "4S-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-SS-Roof40",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B02.265",
+   "to": "RB1-SS-B01.505",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B01.585",
+   "to": "RB1-SS-B01.615",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-1st.440",
+   "to": "RB1-SS-1st.455",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th265",
+   "to": "RB1-WMI-4th275",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "3S-T&C-3rd10",
+   "to": "3S-T&C-4th10",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB1-WMI-4th400",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "CC-T&C-2ndM15",
+   "to": "CC-T&C-3rdM15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-CD-60",
+   "to": "E-SD-ID15",
+   "type": "SS",
+   "lag_days": 20.0
+  },
+  {
+   "from": "4S-F-4th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-T&C-4th10",
+   "to": "RB1-T&C-4th15",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-F-6th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-4th.560",
+   "to": "RB1-SS-4th.610",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-4th.450",
+   "to": "RB1-SS-4th.485",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "3S-T&C-5th10",
+   "to": "3S-T&C-6th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-T&C-1st10",
+   "to": "RB2-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-GF.440",
+   "to": "RB1-SS-GF.455",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-1st.490",
+   "to": "RB1-SS-1st.500",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th245",
+   "to": "RB1-WMI-4th250",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-WMI-4th220",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-FN105",
+   "to": "RB1-SS-B03.15",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "CC-F-(3rdM-Terrace)20",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-T&C-2nd20",
+   "to": "RB1-T&C-3rd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "4S-F-2nd55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-F-4th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-2nd.440",
+   "to": "RB1-SS-2nd.455",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-F-SS20",
+   "to": "4S-F-SS25",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-T&C-1st20",
+   "to": "3S-T&C-2nd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th215",
+   "to": "RB1-WMI-4th230",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "3S-T&C-3rd15",
+   "to": "3S-T&C-4th15",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "CC-F-SS15",
+   "to": "CC-F-SS20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th20",
+   "to": "RB1-WMI-4th60",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB2-T&C-5th10",
+   "to": "RB2-T&C-6th10",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "3S-T&C-1st15",
+   "to": "3S-T&C-2nd15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-2nd.320",
+   "to": "RB1-SS-2nd.395",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "Mock Up-ID_H&CC-55",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-2nd55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-F-6th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th175",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "RB1-SS-B01.905",
+   "to": "RB1-SS-B01.920",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "PC45",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 20.0
+  },
+  {
+   "from": "RB1-SS-GF.300",
+   "to": "RB1-SS-GF.370",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-WMI-4th180",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-2nd.455",
+   "to": "RB1-SS-2nd.490",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-1st400",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "4S-T&C-4th10",
+   "to": "4S-T&C-5th10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-25",
+   "to": "E-DD-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-SS-Roof35",
+   "to": "RB1-SS-Roof40",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-3rd.605",
+   "to": "RB1-SS-3rd.610",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "RB1-SS-1st.615",
+   "to": "RB1-SS-2nd.320",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-T&C-3rd15",
+   "to": "4S-T&C-4th15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB2-F-(2nd-5th)55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "ED-HO10",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB2-F-(GF-2nd)60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-GF395",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-FN30",
+   "to": "RB1-SS-FN40",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "CC-F-GF40",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "SS",
+   "lag_days": 3.0
+  },
+  {
+   "from": "4S-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 4.0
+  },
+  {
+   "from": "RB1-WMI-4th55",
+   "to": "RB1-WMI-4th80",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-B03.35",
+   "to": "RB1-SS-B03.45",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "3S-F-3rd65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-F-2nd65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "4S-F-3rd60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "E-As Built-F-25",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-WMI-4th350",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B01.615",
+   "to": "RB1-SS-B01.665",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB1-SS-GF.590",
+   "to": "RB1-SS-GF.610",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-2nd.455",
+   "to": "RB1-SS-2nd.500",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "E-As Built-Misc-45",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "4S-F-SS15",
+   "to": "4S-F-SS20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "PC110",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-F-Terrace75",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th95",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 17.5
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-20",
+   "to": "E-DD-Misc-Accoustic/AV-25",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "CC-F-(1stM-3rdM)40",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B02.85",
+   "to": "RB1-SS-B02.130",
+   "type": "SS",
+   "lag_days": 2.5
+  },
+  {
+   "from": "RB1-SS-Roof15",
+   "to": "RB1-SS-Roof20",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB1-WMI-4th205",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-F-(GF-Terrace)55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-3rd.395",
+   "to": "RB1-SS-3rd.440",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "Mock Up-ID_H&CC-50",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B02.130",
+   "to": "RB1-SS-B02.250",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-SS-GF.390",
+   "to": "RB1-SS-GF.440",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "E-As Built-F-30",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-WMI-4th185",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-3rd.490",
+   "to": "RB1-SS-3rd.500",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-WMI-4th80",
+   "to": "RB1-WMI-4th95",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "3S-T&C-3rd20",
+   "to": "3S-T&C-4th20",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB1-SS-2nd.320",
+   "to": "RB1-SS-2nd.380",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-WMI-4th360",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-B03.285",
+   "to": "RB1-SS-B03.330",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "RB1-T&C-3rd10",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 7.0
+  },
+  {
+   "from": "RB1-SS-GF.545",
+   "to": "RB1-SS-GF.555",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-15",
+   "to": "E-DD-Misc-Accoustic/AV-20",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "3S-F-SS10",
+   "to": "3S-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-4th.655",
+   "to": "RB1-SS-4th.670",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "Mock Up-ID_H&CC-40",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-WMI-4th30",
+   "to": "RB1-WMI-4th60",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "CC-F-SS10",
+   "to": "CC-F-SS15",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-F-(GF-Terrace)65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-4th.665",
+   "to": "RB1-SS-4th.670",
+   "type": "SS",
+   "lag_days": 1.0
+  },
+  {
+   "from": "3S-F-SS25",
+   "to": "3S-F-SS30",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-GF400",
+   "to": "Milestones-480",
+   "type": "SS",
+   "lag_days": 7.5
+  },
+  {
+   "from": "RB1-SS-B02.40",
+   "to": "RB1-SS-B02.75",
+   "type": "SS",
+   "lag_days": 3.5
+  },
+  {
+   "from": "RB2-SS-GF.200",
+   "to": "RB2-F-SS10",
+   "type": "SS",
+   "lag_days": 35.0
+  },
+  {
+   "from": "CC-F-GF60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-2nd.610",
+   "to": "RB1-SS-2nd.615",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-Roof30",
+   "to": "RB1-SS-Roof35",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-WMI-4th30",
+   "to": "RB1-WMI-4th80",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-WMI-4th90",
+   "to": "RB1-WMI-4th245",
+   "type": "SS",
+   "lag_days": 12.5
+  },
+  {
+   "from": "RB1-SS-FN115",
+   "to": "RB1-SS-FN125",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-T&C-1st10",
+   "to": "4S-T&C-2nd10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-4th.670",
+   "to": "RB1-SS-4th.675",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB2-F-6th55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B03.85",
+   "to": "RB1-SS-B03.90",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "4S-F-GF65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B03.375",
+   "to": "RB1-SS-B03.405",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "4S-F-6th65",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "RB1-SS-B01.505",
+   "to": "RB1-SS-B01.585",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "3S-F-5th60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "CC-SS-Roof35",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB2-F-(2nd-5th)60",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "3S-T&C-6th10",
+   "to": "3S-T&C-Terrace10",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-F-Terrace75",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-GF.610",
+   "to": "RB1-SS-GF.615",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-F-Terrace85",
+   "to": "RB1-T&C-4th10",
+   "type": "SS",
+   "lag_days": 5.0
+  },
+  {
+   "from": "RB1-SS-2nd.440",
+   "to": "RB1-SS-2nd.545",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-B01.840",
+   "to": "RB1-SS-B01.905",
+   "type": "SS",
+   "lag_days": 1.5
+  },
+  {
+   "from": "E-As Built-Misc-10",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 11.0
+  },
+  {
+   "from": "RB1-SS-4th.485",
+   "to": "RB1-SS-4th.505",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-SS-FN10",
+   "to": "RB1-SS-FN15",
+   "type": "SS",
+   "lag_days": 2.0
+  },
+  {
+   "from": "RB2-T&C-4th20",
+   "to": "RB2-T&C-5th20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "SSF15",
+   "to": "CC-F-SS10",
+   "type": "SS",
+   "lag_days": 6.0
+  },
+  {
+   "from": "RB1-SS-3rd.610",
+   "to": "RB1-SS-3rd.615",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB2-T&C-2nd20",
+   "to": "RB2-T&C-3rd20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-4th.660",
+   "to": "RB1-SS-4th.670",
+   "type": "SS",
+   "lag_days": 0.5
+  },
+  {
+   "from": "RB1-F-(GF-2nd)55",
+   "to": "Milestones-495",
+   "type": "SS",
+   "lag_days": 15.0
+  },
+  {
+   "from": "CC-T&C-1stM20",
+   "to": "CC-T&C-2ndF20",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "3S-F-SS35",
+   "to": "3S-F-SS40",
+   "type": "SS",
+   "lag_days": 10.0
+  },
+  {
+   "from": "RB1-SS-FN45",
+   "to": "RB1-SS-FN80",
+   "type": "SS",
+   "lag_days": 13.5
+  },
+  {
+   "from": "RB2-T&C-4th10",
+   "to": "RB2-T&C-5th10",
+   "type": "SS",
+   "lag_days": 10.0
+  }
+ ],
+ "removed": [
+  {
+   "from": "RB1-WMI-4th375",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-1st395",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.420",
+   "to": "RB1-SS-B02.10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.905",
+   "to": "RB1-SS-B01.920",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.300",
+   "to": "RB1-SS-GF.370",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th180",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.500",
+   "to": "RB1-SS-2nd.530",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.455",
+   "to": "RB1-SS-2nd.490",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-1st400",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-25",
+   "to": "E-DD-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.380",
+   "to": "RB1-SS-1st.395",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.605",
+   "to": "RB1-SS-3rd.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof35",
+   "to": "RB1-SS-Roof40",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.615",
+   "to": "RB1-SS-2nd.320",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-(2nd-5th)55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-3rd400",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "ED-HO10",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-(GF-2nd)60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-GF395",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.130",
+   "to": "RB1-SS-B02.170",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN80",
+   "to": "RB1-SS-FN115",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN30",
+   "to": "RB1-SS-FN40",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-GF40",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th55",
+   "to": "RB1-WMI-4th80",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-3rd65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "CC-SS-2ndF.105",
+   "to": "CC-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-2nd65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-3rd60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-F-25",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th350",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.755",
+   "to": "RB1-SS-B01.790",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.615",
+   "to": "RB1-SS-B01.665",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.590",
+   "to": "RB1-SS-GF.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.455",
+   "to": "RB1-SS-2nd.500",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-45",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS15",
+   "to": "4S-F-SS20",
+   "type": "FS"
+  },
+  {
+   "from": "PC110",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-Terrace75",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th95",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-(1stM-3rdM)40",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.85",
+   "to": "RB1-SS-B02.130",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof15",
+   "to": "RB1-SS-Roof20",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-(1stM-3rdM)20",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-(GF-Terrace)55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-50",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.130",
+   "to": "RB1-SS-B02.250",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.390",
+   "to": "RB1-SS-GF.440",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-F-30",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.600",
+   "to": "RB1-SS-2nd.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.10",
+   "to": "RB1-SS-B02.30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.490",
+   "to": "RB1-SS-3rd.500",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN10",
+   "to": "RB1-SS-FN35",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th365",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.605",
+   "to": "RB1-SS-1st.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th310",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th80",
+   "to": "RB1-WMI-4th95",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.320",
+   "to": "RB1-SS-2nd.380",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th275",
+   "to": "RB1-WMI-4th280",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN130",
+   "to": "RB1-SS-FN145",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.285",
+   "to": "RB1-SS-B03.330",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-F-10",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-15",
+   "to": "E-DD-Misc-Accoustic/AV-20",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS10",
+   "to": "3S-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.655",
+   "to": "RB1-SS-4th.670",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th30",
+   "to": "RB1-WMI-4th60",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-(GF-Terrace)65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.45",
+   "to": "RB1-SS-B03.85",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.665",
+   "to": "RB1-SS-4th.670",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS25",
+   "to": "3S-F-SS30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN15",
+   "to": "RB1-SS-FN25",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.280",
+   "to": "RB1-SS-4th.365",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-GF60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-F-15",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.610",
+   "to": "RB1-SS-2nd.615",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof30",
+   "to": "RB1-SS-Roof35",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th30",
+   "to": "RB1-WMI-4th80",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th90",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.545",
+   "to": "RB1-SS-1st.570",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.670",
+   "to": "RB1-SS-4th.675",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.85",
+   "to": "RB1-SS-B03.90",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-GF65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-6th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.505",
+   "to": "RB1-SS-B01.585",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-5th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-2nd60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-SS-6th.F.415",
+   "to": "4S-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "CC-SS-Roof35",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.590",
+   "to": "RB1-SS-GF.600",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-Terrace75",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "3S-SS-Roof40",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-Terrace85",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.440",
+   "to": "RB1-SS-2nd.545",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.840",
+   "to": "RB1-SS-B01.905",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-10",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.485",
+   "to": "RB1-SS-4th.505",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN10",
+   "to": "RB1-SS-FN15",
+   "type": "FS"
+  },
+  {
+   "from": "SSF15",
+   "to": "CC-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.610",
+   "to": "RB1-SS-3rd.615",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.660",
+   "to": "RB1-SS-4th.670",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS35",
+   "to": "3S-F-SS40",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.570",
+   "to": "RB1-SS-1st.610",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.570",
+   "to": "RB1-SS-3rd.590",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.345",
+   "to": "RB1-SS-4th.365",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th250",
+   "to": "RB1-WMI-4th265",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.500",
+   "to": "RB1-SS-GF.510",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.505",
+   "to": "RB1-SS-4th.545",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS20",
+   "to": "4S-F-SS25",
+   "type": "FS"
+  },
+  {
+   "from": "SSF15",
+   "to": "3S-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.685",
+   "to": "RB1-SS-Roof40",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-3rd395",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.380",
+   "to": "RB1-SS-3rd.395",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.585",
+   "to": "RB1-SS-GF.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.195",
+   "to": "RB1-SS-B03.240",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-2nd55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-6th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th175",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.330",
+   "to": "RB1-SS-B03.375",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-4th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.15",
+   "to": "RB1-SS-B03.35",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-60",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th245",
+   "to": "RB1-WMI-4th275",
+   "type": "FS"
+  },
+  {
+   "from": "PC45",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.530",
+   "to": "RB1-SS-1st.545",
+   "type": "FS"
+  },
+  {
+   "from": "PC165",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-SS-Roof40",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.320",
+   "to": "RB1-SS-3rd.395",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th190",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-2nd395",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.805",
+   "to": "RB1-SS-B01.840",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.545",
+   "to": "RB1-SS-3rd.570",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-2nd65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-(3rdM-Terrace)40",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.570",
+   "to": "RB1-SS-1st.590",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.430",
+   "to": "RB1-SS-4th.450",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "E-ShopD-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.40",
+   "to": "RB1-SS-B03.90",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th330",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th395",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th385",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th55",
+   "to": "RB1-WMI-4th265",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-MEP-RB1-180",
+   "to": "RB1-WMI-4th30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.35",
+   "to": "RB1-SS-B03.45",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th155",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-15",
+   "to": "E-GFC-Misc-Accoustic/AV-20",
+   "type": "FS"
+  },
+  {
+   "from": "PC15",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof20",
+   "to": "RB1-SS-Roof25",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-35",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-Terrace70",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th60",
+   "to": "RB1-WMI-4th80",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-GF60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.440",
+   "to": "RB1-SS-3rd.545",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th235",
+   "to": "RB1-WMI-4th350",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.455",
+   "to": "RB1-SS-GF.500",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-20",
+   "to": "E-DD-Misc-Accoustic/AV-25",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.570",
+   "to": "RB1-SS-3rd.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th205",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN205",
+   "to": "RB1-SS-FN30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.590",
+   "to": "RB1-SS-2nd.605",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.395",
+   "to": "RB1-SS-3rd.440",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-4th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th15",
+   "to": "RB1-WMI-4th30",
+   "type": "FS"
+  },
+  {
+   "from": "PC60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.85",
+   "to": "RB1-SS-B03.240",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-45",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-MEP-RB1-180",
+   "to": "RB1-WMI-4th60",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-(2nd-5th)65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th185",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN80",
+   "to": "RB1-SS-FN145",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.840",
+   "to": "RB1-SS-B01.865",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.500",
+   "to": "RB1-SS-3rd.530",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th185",
+   "to": "RB1-WMI-4th215",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.610",
+   "to": "RB1-SS-1st.615",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.455",
+   "to": "RB1-SS-1st.490",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th360",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th75",
+   "to": "RB1-WMI-4th80",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-3rd55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-(3rdM-Terrace)60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN145",
+   "to": "RB1-SS-FN160",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th315",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.545",
+   "to": "RB1-SS-GF.555",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.520",
+   "to": "RB1-SS-B01.505",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN200",
+   "to": "RB1-SS-FN205",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-40",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-65",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-7th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.10",
+   "to": "RB1-SS-B02.40",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-SS10",
+   "to": "CC-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.180",
+   "to": "RB1-SS-B03.405",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN180",
+   "to": "RB1-SS-B03.90",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS25",
+   "to": "4S-F-SS30",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-3rd55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-GF400",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.40",
+   "to": "RB1-SS-B02.75",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-3rd65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th215",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.75",
+   "to": "RB1-SS-B02.85",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN170",
+   "to": "RB1-SS-B03.90",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN115",
+   "to": "RB1-SS-FN125",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN85",
+   "to": "RB1-SS-FN105",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.440",
+   "to": "RB1-SS-3rd.455",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-6th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS30",
+   "to": "3S-F-SS35",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.500",
+   "to": "RB1-SS-1st.530",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-(GF-2nd)55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.375",
+   "to": "RB1-SS-B03.405",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th285",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.900",
+   "to": "RB1-SS-B01.905",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN15",
+   "to": "RB1-SS-FN20",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.590",
+   "to": "RB1-SS-1st.605",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.665",
+   "to": "RB1-SS-B01.685",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.490",
+   "to": "RB1-SS-2nd.500",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.555",
+   "to": "RB1-SS-GF.590",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof25",
+   "to": "RB1-SS-Roof30",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-(2nd-5th)60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.865",
+   "to": "RB1-SS-B01.900",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th235",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th125",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.610",
+   "to": "RB1-SS-GF.615",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.440",
+   "to": "RB1-SS-1st.545",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-25",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.685",
+   "to": "RB1-SS-B01.755",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-(GF-Terrace)60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-(GF-2nd)55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.440",
+   "to": "RB1-SS-GF.555",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN45",
+   "to": "RB1-SS-FN80",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.395",
+   "to": "RB1-SS-1st.440",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS10",
+   "to": "4S-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.430",
+   "to": "RB1-SS-4th.560",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.455",
+   "to": "RB1-SS-3rd.500",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.570",
+   "to": "RB1-SS-2nd.590",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th165",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-7th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.790",
+   "to": "RB1-SS-B01.805",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th320",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th355",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "PC135",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.170",
+   "to": "RB1-SS-B02.210",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-(1stM-3rdM)60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-ST-RB1-175",
+   "to": "RB1-SS-Roof10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.455",
+   "to": "RB1-SS-GF.510",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th260",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-30",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-5th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.610",
+   "to": "RB1-SS-4th.670",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-D-15",
+   "to": "Mock Up-ID_H&CC-10",
+   "type": "FS"
+  },
+  {
+   "from": "PC30",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th280",
+   "to": "RB1-WMI-4th350",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-SS10",
+   "to": "RB1-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-5th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "E-ShopD-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-SS30",
+   "to": "4S-F-SS35",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.590",
+   "to": "RB1-SS-3rd.605",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-15",
+   "to": "P-Misc-Accoustic/AV-25",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-6th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN105",
+   "to": "RB1-SS-B03.90",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN25",
+   "to": "RB1-SS-FN30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.600",
+   "to": "RB1-SS-3rd.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.370",
+   "to": "RB1-SS-GF.390",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th280",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-25",
+   "to": "E-GFC-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-Misc-50",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.365",
+   "to": "RB1-SS-4th.430",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.545",
+   "to": "RB1-SS-4th.560",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th230",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.545",
+   "to": "RB1-SS-2nd.570",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-6th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.605",
+   "to": "RB1-SS-2nd.610",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-Terrace80",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-20",
+   "to": "MISC15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th195",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.610",
+   "to": "RB1-SS-4th.640",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN25",
+   "to": "RB1-SS-FN40",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.510",
+   "to": "RB1-SS-GF.545",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN185",
+   "to": "RB1-SS-FN200",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-5th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-GF55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th325",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.920",
+   "to": "RB1-SS-GF.300",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-20",
+   "to": "E-GFC-Misc-Accoustic/AV-25",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th210",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.175",
+   "to": "RB1-SS-B02.250",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-4th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-2nd60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th240",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-6th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.530",
+   "to": "RB1-SS-3rd.545",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-35",
+   "to": "P-Misc-Accoustic/AV-15",
+   "type": "FS"
+  },
+  {
+   "from": "E-DD-Misc-Accoustic/AV-10",
+   "to": "E-DD-Misc-Accoustic/AV-15",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-Misc-Accoustic/AV-30",
+   "to": "E-GFC-Misc-Accoustic/AV-35",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-GF65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.605",
+   "to": "RB1-SS-GF.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.530",
+   "to": "RB1-SS-2nd.545",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.15",
+   "to": "RB1-SS-B03.45",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-(GF-2nd)60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.320",
+   "to": "RB1-SS-1st.395",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.380",
+   "to": "RB1-SS-2nd.395",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof40",
+   "to": "RB1-WMI-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.280",
+   "to": "RB1-SS-4th.345",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.615",
+   "to": "RB1-SS-1st.320",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-SS20",
+   "to": "3S-F-SS25",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.640",
+   "to": "RB1-SS-4th.665",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN115",
+   "to": "RB1-SS-FN130",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.320",
+   "to": "RB1-SS-1st.380",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th10",
+   "to": "RB1-WMI-4th15",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-GF20",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.525",
+   "to": "RB1-SS-Roof40",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "Mock Up-Accoustic/AV-10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.750",
+   "to": "RB1-SS-B01.755",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-5th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.600",
+   "to": "RB1-SS-GF.605",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.505",
+   "to": "RB1-SS-B01.615",
+   "type": "FS"
+  },
+  {
+   "from": "E-GFC-AR-RB1-180",
+   "to": "RB1-WMI-4th15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN160",
+   "to": "RB1-SS-FN190",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.395",
+   "to": "RB1-SS-2nd.440",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.615",
+   "to": "RB1-SS-3rd.320",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-3rd60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th335",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-Roof10",
+   "to": "RB1-SS-Roof15",
+   "type": "FS"
+  },
+  {
+   "from": "3S-SS-7th200",
+   "to": "3S-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.685",
+   "to": "RB1-SS-B01.750",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.240",
+   "to": "RB1-SS-B03.285",
+   "type": "FS"
+  },
+  {
+   "from": "P-Misc-Accoustic/AV-10",
+   "to": "P-Misc-Accoustic/AV-30",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th295",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.600",
+   "to": "RB1-SS-1st.610",
+   "type": "FS"
+  },
+  {
+   "from": "4S-SS-6th.F.190",
+   "to": "4S-F-SS10",
+   "type": "FF"
+  },
+  {
+   "from": "RB1-SS-B02.30",
+   "to": "RB1-SS-B02.40",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th290",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-5th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-7th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "E-As Built-F-20",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th340",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-6th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-4th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN25",
+   "to": "RB1-SS-FN35",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.455",
+   "to": "RB1-SS-3rd.490",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th370",
+   "to": "RB1-T&C-4th10",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-SS20",
+   "to": "RB2-F-SS25",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.675",
+   "to": "RB1-SS-Roof10",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B03.405",
+   "to": "RB1-SS-B03.420",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.250",
+   "to": "RB1-SS-B02.265",
+   "type": "FS"
+  },
+  {
+   "from": "4S-WMI-GF250",
+   "to": "MISC15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.570",
+   "to": "RB1-SS-2nd.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.455",
+   "to": "RB1-SS-1st.500",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th95",
+   "to": "RB1-WMI-4th150",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-GF55",
+   "to": "CC-F-Terrace25",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.450",
+   "to": "RB1-SS-4th.505",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN180",
+   "to": "RB1-SS-B03.15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.525",
+   "to": "RB1-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-SS10",
+   "to": "RB2-F-SS15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th120",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-2nd400",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.320",
+   "to": "RB1-SS-3rd.380",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-3rd.615",
+   "to": "RB1-SS-4th.280",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-5th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "3S-F-5th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.210",
+   "to": "RB1-SS-B02.250",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-SS-6th.55",
+   "to": "RB2-F-SS10",
+   "type": "FS"
+  },
+  {
+   "from": "PC150",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN170",
+   "to": "RB1-SS-B03.15",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-F-(GF-2nd)65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B02.265",
+   "to": "RB1-SS-B01.505",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-B01.585",
+   "to": "RB1-SS-B01.615",
+   "type": "FS"
+  },
+  {
+   "from": "4S-SS-6th.F.320",
+   "to": "4S-F-SS10",
+   "type": "FF"
+  },
+  {
+   "from": "RB1-SS-1st.440",
+   "to": "RB1-SS-1st.455",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th265",
+   "to": "RB1-WMI-4th275",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th400",
+   "to": "Milestones-480",
+   "type": "FS"
+  },
+  {
+   "from": "E-CD-60",
+   "to": "E-SD-ID15",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-4th60",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-T&C-4th10",
+   "to": "RB1-T&C-4th15",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-5th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-6th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.560",
+   "to": "RB1-SS-4th.610",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-4th.450",
+   "to": "RB1-SS-4th.485",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-6th65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.440",
+   "to": "RB1-SS-GF.455",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-1st.490",
+   "to": "RB1-SS-1st.500",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th245",
+   "to": "RB1-WMI-4th250",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th220",
+   "to": "RB1-WMI-4th245",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-FN105",
+   "to": "RB1-SS-B03.15",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-(3rdM-Terrace)20",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-2nd55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "4S-F-4th55",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.440",
+   "to": "RB1-SS-2nd.455",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-GF.300",
+   "to": "RB1-SS-GF.390",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th215",
+   "to": "RB1-WMI-4th230",
+   "type": "FS"
+  },
+  {
+   "from": "RB2-F-(GF-2nd)65",
+   "to": "Milestones-495",
+   "type": "FS"
+  },
+  {
+   "from": "CC-F-SS15",
+   "to": "CC-F-SS20",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-WMI-4th20",
+   "to": "RB1-WMI-4th60",
+   "type": "FS"
+  },
+  {
+   "from": "RB1-SS-2nd.320",
+   "to": "RB1-SS-2nd.395",
+   "type": "FS"
+  },
+  {
+   "from": "Mock Up-ID_H&CC-55",
+   "to": "Mock Up-ID_H&CC-D-20",
+   "type": "FS"
+  }
+ ]
+}
