@@ -1,30 +1,51 @@
 {
  "base_file": "CSD-LKO-RB-Stage1_1.xer",
  "new_file": "CSD-LKO-RB-Stage1_2N.xer",
- "built": "2026-10-06",
- "originals_preserved": 22718,
- "originals_severed": 0,
- "original_lags_modified": 0,
- "added_relationships": 45861,
- "added_type": "PR_FS only",
- "added_pk_range": [
-  641338,
-  687198
- ],
- "cpm_gates": {
+ "version": "1.2N v2 (rebuilt 2026-10-07 Asia/Kolkata) \u2014 replaces broken 1.2N v1",
+ "v1_defect_root_cause": "added TASKPRED rows had 11 fields vs 10-field header; P6 strict import; caught by new field-count battery",
+ "design": "40,982 added PR_FS relationships, ALL lag 0; each placed only where BOTH the file's own cached P6 dates and an independent engine show >=4 working days natural slack",
+ "originals_preserved": {
+  "links": 22718,
+  "severed": 0,
+  "lags_modified": 0,
+  "other_tables_untouched": true
+ },
+ "added": {
+  "count": 40982,
+  "type": "PR_FS",
+  "lag": "0 (zero) for all",
+  "pk_range": [
+   641338,
+   682319
+  ]
+ },
+ "validator_gates": {
   "negative_float": 0,
   "loops": 0,
-  "finish_shift_vs_baseline": "none (engine view 2029-04-06)"
+  "start_dates_identical_to_base": "13050/13050",
+  "finish": "2029-04-06 (unchanged)"
  },
- "lag_rule": "min(engine_gap-0.5d, cached_P6_gap-margin); guard: never demands a date later than the file's own cached P6 dates",
- "float_outcome": {
-  "le44cd": 4270,
-  "le44_pct": 32.7,
-  "gt44": 8757,
-  "bands_44_60": 2337,
-  "bands_60_120": 3714,
-  "bands_120_250": 2664,
-  "gt250": 42,
-  "note": "remaining >44 are genuine vertical windows to physically-later successors; provable, not editable by links"
- }
+ "float_distribution": {
+  "<=44d#": [
+   534,
+   1274
+  ],
+  "44-60d": [
+   168,
+   488
+  ],
+  "60-120d": [
+   1242,
+   3604
+  ],
+  "120-250d": [
+   7661,
+   6426
+  ],
+  ">250d": [
+   3445,
+   1258
+  ]
+ },
+ "honest_note": "remaining floats are genuine schedule windows bound to physically-later successors; links can not shrink those. Next tier needs user P6 F9 feedback loop."
 }
