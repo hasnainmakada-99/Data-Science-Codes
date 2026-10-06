@@ -1,37 +1,41 @@
-# Stage 1.2N — New Copy (rebuilt from scratch)
+# Stage 1.2N v2 — Rebuilt (07-Oct-2026)
 
-**File:** `CSD-LKO-RB-Stage1_2N.xer` · **Base:** Stage 1.1 (`CSD-LKO-RB-Stage1_1.xer`) · **Project code inside file:** `CSD-LKO-RB-S12N`
-**Do not open the old Stage 1.2 file — it was withdrawn. This is a completely new build.**
+**File:** `CSD-LKO-RB-Stage1_2N.xer` · **Base:** Stage 1.1 · **Project code inside file:** `CSD-LKO-RB-S12N`
 
-## What changed — and ONLY this
-| # | Rule | Result |
-|---|------|--------|
-| 1 | Original relationships severed | **0** (all 22,718 preserved, verified one-by-one) |
-| 2 | Original lags modified | **0** (byte-level checked) |
-| 3 | Durations / dates / IDs / WBS / calendars / resources touched | **0** — only line changed outside TASKPRED is the project short code |
-| 4 | New relationships added | **45,861** — all FS, all positive lags, unique pairs, new PKs 641338–687198 |
-| 5 | Negative lags / negative float / loops | **None** (verified by CPM) |
-| 6 | Project finish (engine check) | **Identical to Stage 1.1 baseline** |
+> **The first 1.2N upload was withdrawn and replaced.** Root cause found: a file-format defect — every added relationship row carried **one tab too many** (11 fields against a 10-field table header). My lenient parser hid it; P6's strict importer did not. The check that catches this is now permanently in the battery: every row in every table is verified field-for-field against its header before anything ships.
 
-## Why the lag sizes are safe this time
-Every new lag is a *shrink-only* tie: `lag = min(engine gap − 0.5d, cached P6 gap − margin)`.
-Plainly: **no link is allowed to demand a date later than the one already stored in the file by your own P6.** Ties can only pull dates earlier, never push them later. Last failure's two causes (engine-invented dates + severed originals) are both eliminated.
+## What this build does — and cannot do — in plain words
 
-## How the ties work (the five ropes)
-1. **Crew ties (2,460):** consecutive activities with the same name on consecutive levels — the rope that keeps a work crew moving floor by floor.
-2. **Zone ties (311):** same work-pack continuing zone-to-zone.
-3. **Tail ties (1,387):** free end-of-chain activities tied forward to the completion milestone.
-4. **Milestone ties (44):** milestones chained in calendar order and to completion.
-5. **Left-over sweep (8,773 + 571):** anything still floating ties to the nearest later activity in its own building/prefix.
-6. **Diet rounds (27,251):** every activity whose float is still > 44cd picks the nearest later low-float activity in its prefix (3 passes).
+- Added **40,982 new Finish-Start relationships**. **Every added lag is exactly zero** — the question "how does P6 convert lag hours" (different calendars carry different hours/day) is now eliminated by construction: 0 hours is 0 in every calendar.
+- Every tie is placed **only where the file's own dates already give it at least 4 working days of natural slack** — checked twice, against the P6-cached dates stored inside the file AND an independent date-only CPM engine. Because of that: **the schedule can keep its dates or pull them earlier; nothing can be pushed later.** Verified in the validator: all 13,050 activity start dates are byte-identical to Stage 1.1; project finish unchanged; 0 negative float; 0 logic loops.
+- **Honest ceiling:** zero-lag ropes with slack can only do so much. Float ≤ 44cd rose from 534 to **1,274 activities (~10%)**; the >250-day float tail collapsed from 3,445 to **1,258**. Most remaining floats sit at 50–120 days, held there by genuine scheduling windows between early work and physically-later floors — **no relationship edit can shrink those without re-dating the successor work** (which is the client's planner's decision, not something a links-only file should smuggle in).
+- To go further toward the client's 40/44-day target, the right next step is a **two-way loop through your P6**: you F9 and export, I place the next tier of ties against those live dates, you verify again. P6 stays the final authority on every batch.
 
-## Float outcome (CPM validation, calendar-day view)
-- **≤44cd: 4,270 activities (32.7%)** vs ~4% before (96% were over 44).
-- Median float fell roughly in half across the board.
-- The remaining high floats (67%) are **genuine schedule windows**, and I can prove why: where an early-window task connects (by the original design) to a physically much-later successor, its float equals that vertical gap and *no link can shrink it* — only re-dating the successor could. Root clusters documented in the diff file (e.g. chains ending on "Retail Block 1" / "Handing Over" / "Inspection" horizon tasks).
+## Verification battery (run on the shipped bytes)
 
-## Verify in P6 (your checks)
-1. Import **as a new project** (code will show as CSD-LKO-RB-S12N).
-2. F9 with scheduled date unchanged. Finish must read the same as Stage 1.1 (≈ mid-May 2029 view; completion MS 07-Jun-2029).
-3. Check **no negative float** and spot-check floats dropping vs 1.1.
-4. The old broken Stage 1.2 trio is still in the repo — say the word and I remove it.
+| Check | Result |
+|---|---|
+| Original relationships severed | **0** of 22,718 (row-by-row) |
+| Original lags modified | **0** (byte-level) |
+| Anything outside TASKPRED changed | Nothing (project code renamed CSD-LKO-RB-S12N only) |
+| Row field counts vs table headers (all tables) | exact |
+| New ties | 40,982, all PR_FS, all lag 0, unique pairs & PKs (641338–682319) |
+| Dangling task references | 0 |
+| Negative float / loops (CPM validator) | 0 / 0 |
+| Every activity's start date vs Stage 1.1 | 13,050/13,050 identical |
+| Project finish (validator view) | 2029-04-06, identical to baseline |
+
+## Float distribution (validator, calendar days)
+
+| Band | Stage 1.1 | Stage 1.2N v2 |
+|---|---|---|
+| ≤ 44d (target) | 534 | **1,274** |
+| 44–60d | 168 | 488 |
+| 60–120d | 1,242 | 3,604 |
+| 120–250d | 7,661 | 6,426 |
+| > 250d | 3,445 | **1,258** |
+
+## Your checks in P6
+1. Import as a **new project** (shows as CSD-LKO-RB-S12N).
+2. F9 — finish must match Stage 1.1 exactly; dates may only sit on or before their 1.1 positions.
+3. Confirm no negative float and spot-check the float columns against the table above.
