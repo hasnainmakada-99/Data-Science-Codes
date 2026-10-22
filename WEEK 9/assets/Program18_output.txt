@@ -1,0 +1,20 @@
+==============================================================
+PROGRAM 18 : ARRAYS IN SCALA
+==============================================================
+
+1. Integer array         : [2, 5, 9, 14, 20]
+   Length                : 5
+   Sum of all elements   : 50
+
+2. String array (fruits) : [Apple, Banana, Mango, Grapes, Orange]
+   Concatenated           : Apple, Banana, Mango, Grapes, Orange
+
+3. Iterating over the integer array:
+  Element at index 0 = 2
+  Element at index 1 = 5
+  Element at index 2 = 9
+  Element at index 3 = 14
+  Element at index 4 = 20
+
+4. Verification           : manual sum = 50 , function sum = 50 , match = true
+==============================================================

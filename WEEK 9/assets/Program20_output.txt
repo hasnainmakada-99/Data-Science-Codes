@@ -1,0 +1,29 @@
+==============================================================
+PROGRAM 20 : HASHMAPS - COLLISIONS AND CONFLICT RESOLUTION
+==============================================================
+
+1. Initial HashMap           : {(Amit,76), (Hasnain,88), (Neha,91)}
+   After inserts + duplicate : {(Amit,76), (Hasnain,93), (Neha,91), (Rahul,69), (Sara,95)}
+   Note: the duplicate key Hasnain replaced 88 with 93
+
+2. Section A                 : {(Amit,76), (Hasnain,93), (Zoya,81)}
+   Section B                 : {(Hasnain,85), (Vikram,74), (Zoya,90)}
+   Merged (higher grade wins): {(Amit,76), (Hasnain,93), (Vikram,74), (Zoya,90)}
+   Hasnain 93 vs 85 -> 93 | Zoya 81 vs 90 -> 90
+
+3. Collision handling by separate chaining:
+   Hash function      : index = |key.hashCode| % 4
+   Amit -> bucket 3
+   Neha -> bucket 0
+   Rahul -> bucket 0
+   Sara -> bucket 1
+   Vikram -> bucket 2
+   Zoya -> bucket 1
+
+   Bucket | Chain (key -> grade)
+   -------+---------------------
+   0      | Neha -> 85 , Rahul -> 66
+   1      | Sara -> 92 , Zoya -> 88
+   2      | Vikram -> 74
+   3      | Amit -> 78
+==============================================================

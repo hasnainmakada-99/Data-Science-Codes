@@ -1,0 +1,19 @@
+==============================================================
+PROGRAM 19 : LISTS, SETS AND TUPLES IN SCALA
+==============================================================
+
+1. List of first five primes : List(2, 3, 5, 7, 11)
+   Squares of each element    : List(4, 9, 25, 49, 121)
+   Sum of squares             : 208
+
+2. Source string             : hello world
+   Unique characters (Set)    : [ , d, e, h, l, o, r, w]
+   Number of unique chars     : 8
+   Vowel set                  : [a, e, i, o, u]
+   Intersection (vowels)      : [e, o]
+
+3. Tuple                     : (101,Hasnain Makada,true)
+  First  element (Int)     : 101
+  Second element (String)  : Hasnain Makada
+  Third  element (Boolean) : true
+==============================================================
