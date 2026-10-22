@@ -1,6 +1,12 @@
 import os, json, sys
 sys.path.insert(0, "/tmp")
-from content_w10 import S
+from content_w9 import S as S9
+from content_w10 import S as S10
+for _p in S9:
+    _p['home'] = '/media/bruce-wayne/HASNAIN/VIT WORK/Data-Science-Codes/WEEK 9'
+for _p in S10:
+    _p['home'] = '/media/bruce-wayne/HASNAIN/VIT WORK/Data-Science-Codes/WEEK 10'
+S = S9 + S10
 from docx import Document
 from docx.shared import Pt, Inches, Emu, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -19,15 +25,17 @@ PMAP = "/tmp/w10_pagemap.json"
 PAGES = json.load(open(PMAP)) if os.path.exists(PMAP) else {}
 
 TNR, MONO = "Times New Roman", "Consolas"
-C_TITLE, C_LABEL, C_BODY = "833C0B", "F7CAAC", "FFFFFF"
+C_TITLE, C_LABEL, C_BODY = "833C0B", "F7CAAC", "E2EFD9"
 C_FNHEAD, C_IDXHEAD, C_IDXBAND = "C45911", "EB782C", "F7DED1"
 
 STUDENT = "Student Reg. No: 26MML0031    Name: Hasnain Makada"
 FACULTY = ("Faculty: Dr Rajasekhara Babu M, Professor, School of CSE, "
            "Vellore Institute of Technology (VIT), Vellore")
-START_PAGE = 141
+START_PAGE = 131
 GH = "https://github.com/hasnainmakada-99/Data-Science-Codes/blob/main/WEEK%2010/programs/"
-SRC = {22:"Program22_CaseClasses.scala", 23:"Program23_SaddleVegas.scala",
+SRC = {18:"Program18_Arrays.scala", 19:"Program19_ListsSetsTuples.scala",
+       20:"Program20_HashMapCollisions.scala", 21:"Program21_FunctionalCombinators.scala",
+       22:"Program22_CaseClasses.scala", 23:"Program23_SaddleVegas.scala",
        24:"Program24_Breeze.scala", 25:"Program25_SpireSaddle.scala"}
 
 def shade(cell, hexfill):
@@ -323,7 +331,7 @@ for r in rows[1:]:
     if (not title) or low.startswith("requests") or low.startswith("beautifulsoup"):
         title = TITLES.get(sl, title)
     page = PREV.get(sl, "")
-    if sl >= 22:
+    if sl >= 18:
         page = PAGES.get(str(sl), str(START_PAGE))
     recs.append([r[0].strip(), r[1].strip(), str(sl), r[3].strip(),
                  r[4].strip(), title, prob, page])
@@ -437,7 +445,7 @@ for prog in S:
     pc = tb.rows[1].cells[1].merge(tb.rows[1].cells[5])
     shade(pc, C_BODY)
     pc.text = ""
-    src = open(os.path.join(PROG, SRC[prog["no"]])).read().rstrip(chr(10))
+    src = open(os.path.join(prog["home"], "programs", SRC[prog["no"]])).read().rstrip(chr(10))
     first = True
     for line in src.split(chr(10)):
         p = pc.paragraphs[0] if first else pc.add_paragraph()
@@ -469,7 +477,7 @@ for prog in S:
         p = m.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         p.paragraph_format.space_before = Pt(3); p.paragraph_format.space_after = Pt(2)
-        p.add_run().add_picture(os.path.join(ASSETS, fname), width=Inches(4.9))
+        p.add_run().add_picture(os.path.join(prog["home"], "assets", fname), width=Inches(4.9))
         cp = m.add_paragraph(cap)
         cp.alignment = WD_ALIGN_PARAGRAPH.CENTER
         cp.paragraph_format.space_before = Pt(2); cp.paragraph_format.space_after = Pt(2)
@@ -495,7 +503,9 @@ for prog in S:
     m = tc.rows[3].cells[1].merge(tc.rows[3].cells[5])
     shade(m, C_BODY)
     refs = list(prog["refs"])
-    refs.append("%d. Python program (GitHub link): %s%s" % (len(refs) + 1, GH,
+    GHW = ("https://github.com/hasnainmakada-99/Data-Science-Codes/blob/main/"
+           + ("WEEK%209/" if prog["no"] <= 21 else "WEEK%2010/") + "programs/")
+    refs.append("%d. Python program (GitHub link): %s%s" % (len(refs) + 1, GHW,
                 SRC[prog["no"]].replace(" ", "%20")))
     put_linked(m, chr(10).join(refs), size=10.5)
 
