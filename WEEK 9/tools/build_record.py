@@ -215,13 +215,15 @@ def build_header(section, prog):
     pf = p.paragraph_format; pf.space_before = Pt(0); pf.space_after = Pt(0)
     pPr = p._p.get_or_add_pPr()
     tabs = OxmlElement("w:tabs")
-    for pos, al in ((3400, "center"), (6800, "right")):
-        t = OxmlElement("w:tab"); t.set(qn("w:val"), al); t.set(qn("w:pos"), str(pos))
+    for pos, al in ((4513, "center"), (9026, "right")):
+        t = OxmlElement("w:tab")
+        t.set(qn("w:val"), al)
+        t.set(qn("w:pos"), str(pos))
         tabs.append(t)
     pPr.append(tabs)
     for txt in ("Date: " + prog["date"], chr(9) + "Week No.: " + str(prog["week"]),
                 chr(9) + "Program S. No. " + str(prog["no"])):
-        r = p.add_run(txt); r.font.size = Pt(10); r.font.name = TNR
+        r = p.add_run(txt); r.font.size = Pt(12); r.font.name = TNR; r.font.bold = True
 
 def build_footer(section, ph=None):
     section.footer.is_linked_to_previous = False
