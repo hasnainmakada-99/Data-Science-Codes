@@ -1,0 +1,11 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Fruit price trend",
+  "data": {"values": [{"fruit":"Apple","index":0,"price":120.0},{"fruit":"Apple","index":1,"price":125.0},{"fruit":"Apple","index":2,"price":118.0},{"fruit":"Apple","index":3,"price":130.0},{"fruit":"Apple","index":4,"price":128.0},{"fruit":"Banana","index":5,"price":45.0},{"fruit":"Banana","index":6,"price":47.0},{"fruit":"Banana","index":7,"price":44.0},{"fruit":"Banana","index":8,"price":49.0},{"fruit":"Banana","index":9,"price":46.0}]},
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {"field": "index", "type": "quantitative", "title": "Observation"},
+    "y": {"field": "price", "type": "quantitative", "title": "Price"},
+    "color": {"field": "fruit", "type": "nominal"}
+  }
+}

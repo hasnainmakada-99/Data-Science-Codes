@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" />
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script></head>
+<body>
+<div id="chart" style="width:900px;height:520px;"></div>
+<script>
+var data = [
+      {"x": ["Apple"], "y": [6000.0], "type": "bar", "name": "Apple", "marker": {"color": "#1f77b4"}},
+      {"x": ["Banana"], "y": [3600.0], "type": "bar", "name": "Banana", "marker": {"color": "#ff7f0e"}},
+      {"x": ["Mango"], "y": [3600.0], "type": "bar", "name": "Mango", "marker": {"color": "#2ca02c"}},
+      {"x": ["Orange"], "y": [4200.0], "type": "bar", "name": "Orange", "marker": {"color": "#d62728"}},
+      {"x": ["Grapes"], "y": [3750.0], "type": "bar", "name": "Grapes", "marker": {"color": "#9467bd"}}
+];
+var layout = {"title": "Total revenue per fruit type",
+  "xaxis": {"title": "Fruit"},
+  "yaxis": {"title": "Revenue"},
+  "barmode": "group"};
+Plotly.newPlot('chart', data, layout);
+</script>
+</body>
+</html>
+

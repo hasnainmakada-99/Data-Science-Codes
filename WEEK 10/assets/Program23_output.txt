@@ -1,0 +1,67 @@
+====================================================================
+PROGRAM 23 : FRUIT PRICES WITH SADDLE
+====================================================================
+
+1. Price series (Saddle Series)
+[7 x 1]
+Day1 -> 120.0000
+Day2 -> 125.0000
+Day3 -> 118.0000
+Day4 -> 130.0000
+Day5 -> 128.0000
+Day6 -> 135.0000
+Day7 -> 132.0000
+
+
+2. Quantity series (Saddle Series)
+[7 x 1]
+Day1 -> 50.0000
+Day2 -> 45.0000
+Day3 -> 60.0000
+Day4 -> 40.0000
+Day5 -> 55.0000
+Day6 -> 38.0000
+Day7 -> 48.0000
+
+
+3. Filtered for apples -> 7 observations
+[7 x 1]
+120.0000
+125.0000
+118.0000
+130.0000
+128.0000
+135.0000
+132.0000
+
+
+4. Average apple price : 126.86
+
+5. Descriptive statistics
+   count : 7
+   min   : 118.00
+   max   : 135.00
+   sum   : 888.00
+
+6. Day-on-day price change
+   Day1 -> Day2 : UP   5.00
+   Day2 -> Day3 : DOWN -7.00
+   Day3 -> Day4 : UP   12.00
+   Day4 -> Day5 : DOWN -2.00
+   Day5 -> Day6 : UP   7.00
+   Day6 -> Day7 : DOWN -3.00
+
+7. Daily revenue (price x quantity)
+[7 x 1]
+Day1 -> 6000.0000
+Day2 -> 5625.0000
+Day3 -> 7080.0000
+Day4 -> 5200.0000
+Day5 -> 7040.0000
+Day6 -> 5130.0000
+Day7 -> 6336.0000
+
+   total revenue : 42411.00
+
+8. Vega-Lite trend spec written to program23_price_trend.json
+====================================================================

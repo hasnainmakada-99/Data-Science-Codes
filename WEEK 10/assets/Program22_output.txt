@@ -1,0 +1,42 @@
+====================================================================
+PROGRAM 22 : CASE CLASSES IN SCALA
+====================================================================
+
+1. List of Person objects
+   Person(Hasnain,22,Delhi)
+   Person(Amit,35,Mumbai)
+   Person(Neha,41,Delhi)
+   Person(Rahul,28,Pune)
+   Person(Sara,33,Mumbai)
+
+2. People older than 30
+   Amit (35)
+   Neha (41)
+   Sara (33)
+   Count: 3 of 5
+
+3. Grouped by city
+   Delhi -> Hasnain, Neha
+   Mumbai -> Amit, Sara
+   Pune -> Rahul
+
+4. Formatted descriptions
+   Hasnain is 22 years old and lives in Delhi
+   Amit is 35 years old and lives in Mumbai
+   Neha is 41 years old and lives in Delhi
+   Rahul is 28 years old and lives in Pune
+   Sara is 33 years old and lives in Mumbai
+
+5. Sorted by age (ascending)
+   22  Hasnain  (Delhi)
+   28  Rahul  (Pune)
+   33  Sara  (Mumbai)
+   35  Amit  (Mumbai)
+   41  Neha  (Delhi)
+
+6. Case class features demonstrated
+   copy():      Person(Hasnain,23,Delhi)
+   equals():    true
+   toString():  Person(Hasnain,22,Delhi)
+   productArity:3
+====================================================================

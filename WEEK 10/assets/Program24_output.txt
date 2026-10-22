@@ -1,0 +1,40 @@
+====================================================================
+PROGRAM 24 : FRUIT REVENUE WITH BREEZE
+====================================================================
+
+1. Price per kg (Breeze DenseVector)
+   DenseVector(120.0, 45.0, 90.0, 70.0, 150.0)
+
+2. Quantity sold (Breeze DenseVector)
+   DenseVector(50.0, 80.0, 40.0, 60.0, 25.0)
+
+3. Revenue = price *:* quantity (element-wise)
+   Apple : 120.0 x 50.0 = 6000.0
+   Banana : 45.0 x 80.0 = 3600.0
+   Mango : 90.0 x 40.0 = 3600.0
+   Orange : 70.0 x 60.0 = 4200.0
+   Grapes : 150.0 x 25.0 = 3750.0
+
+4. Aggregate statistics
+   total revenue : 21150.0
+   mean revenue  : 4230.0
+   max revenue   : 6000.0 (Apple)
+   min revenue   : 3600.0 (Mango)
+   revenue std   : 1019.5587280779857
+
+5. Share of total revenue
+   Apple : 28.37 %
+   Banana : 17.02 %
+   Mango : 17.02 %
+   Orange : 19.86 %
+   Grapes : 17.73 %
+
+6. Interactive bar chart written to program24_revenue.html
+
+7. Revenue bar chart (terminal view)
+   Apple    ######################################## 6000.0
+   Banana   ######################## 3600.0
+   Mango    ######################## 3600.0
+   Orange   ############################ 4200.0
+   Grapes   ######################### 3750.0
+====================================================================

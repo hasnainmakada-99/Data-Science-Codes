@@ -1,0 +1,10 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Apple price trend over one week",
+  "data": {"values": [{"day":"Day1","price":120.0,"quantity":50.0},{"day":"Day2","price":125.0,"quantity":45.0},{"day":"Day3","price":118.0,"quantity":60.0},{"day":"Day4","price":130.0,"quantity":40.0},{"day":"Day5","price":128.0,"quantity":55.0},{"day":"Day6","price":135.0,"quantity":38.0},{"day":"Day7","price":132.0,"quantity":48.0}]},
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {"field": "day", "type": "ordinal", "title": "Day"},
+    "y": {"field": "price", "type": "quantitative", "title": "Price (per kg)"}
+  }
+}
