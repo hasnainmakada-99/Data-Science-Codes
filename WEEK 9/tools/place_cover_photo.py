@@ -35,11 +35,19 @@ for y in ys[1:]:
         bands.append((start, prev)); start = y
     prev = y
 bands.append((start, prev))
-b0 = bands[0]
+# first orange band tall enough to be a banner (not a stray glyph)
+b0 = None
+for b in bands:
+    if (b[1] - b[0]) >= 100:
+        b0 = b
+        break
+if b0 is None:
+    b0 = bands[0]
 mid = (b0[0] + b0[1]) // 2
 r = (b0[1] - b0[0]) / 2.0
 cx = rows[mid][0] + r
 cy = mid
+print("chosen band:", b0, "r=%.0f cx=%.0f cy=%.0f" % (r, cx, cy))
 print("circle: cx=%.0f cy=%.0f r=%.0f (img %dx%d)" % (cx, cy, r, W, H))
 
 # 3. composite the circular student photo
