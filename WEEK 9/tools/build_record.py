@@ -274,6 +274,15 @@ heading("2026 FALL SEMESTER")
 heading("Programming for Data Science Lab (MACSE502) Record")
 heading("INDEX")
 
+TITLES = {
+ 2: "AI Model Performance Analysis Using Pandas",
+ 4: "Movie Rating Data Preprocessing Using Pandas",
+ 6: "Warehouse Shipment and Logistic Analytics Using NumPy",
+ 8: "Employee Attrition Prediction Using Workforce Indicators",
+ 9: "Web Scraping and Data Collection",
+ 10: "Online Job Market Analytics",
+}
+
 PREV = {1:"1",2:"6",3:"14",4:"18",5:"30",6:"35",7:"46",8:"54",9:"63",10:"70",
         11:"80",12:"88",13:"101",14:"105",15:"109",16:"113",17:"122"}
 EXTRA = {
@@ -308,11 +317,15 @@ recs = []
 for r in rows[1:]:
     sl = int(r[2].strip())
     prob = r[6].strip() or EXTRA.get(sl, "")
+    title = r[5].strip()
+    low = title.lower()
+    if (not title) or low.startswith("requests") or low.startswith("beautifulsoup"):
+        title = TITLES.get(sl, title)
     page = PREV.get(sl, "")
     if sl >= 18:
         page = PAGES.get(str(sl), str(START_PAGE))
     recs.append([r[0].strip(), r[1].strip(), str(sl), r[3].strip(),
-                 r[4].strip(), r[5].strip(), prob, page])
+                 r[4].strip(), title, prob, page])
 
 IW = [Emu(478790), Emu(566420), Emu(356870), Emu(447040), Emu(692150),
       Emu(780000), Emu(2400000), Emu(444500)]
